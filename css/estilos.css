@@ -245,7 +245,7 @@ h1,h2,h3{
     position: relative;
     margin-bottom: 2rem;
 }
-.contenido-hero-sobre-mi,.contenido-hero-clientes{
+.contenido-hero-sobre-mi,.contenido-hero-clientes, .contenido-hero-portafolio{
     position: absolute;
     background-color: rgba(0,0,0, .6); /**Anterior**/
     /* background-color: rgb(0 0 0 / 7% ); */
@@ -266,7 +266,7 @@ h1,h2,h3{
         margin-bottom: 2rem;
     }
 }
-.contenido-hero-sobre-mi p, .contenido-hero-sobre-mi h3, .rhg h2, .rhg p{
+.contenido-hero-sobre-mi p, .contenido-hero-sobre-mi h3, .contenido-hero-portafolio, .rhg h2, .rhg p, .svrhg h2, .svrhg p{
     text-align: center;
     color: var(--psobremi);
     line-height: 1.2;
@@ -301,6 +301,33 @@ i{
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+        /* ESTILOS DE PORTAFOLIO */
+
+.hero-portafolio{
+    background: linear-gradient(to bottom,#2287e7,   #d4dade);
+    height: 400px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.hero1-portafolio{
+    background: linear-gradient(to bottom, #5fadf5,   #d4dade);
+    height: 300px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.hero2-portafolio{
+    background:linear-gradient(to bottom,   #3392c5,   #d4dade);
+    height: 300px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.hero3-portafolio{
+    background:linear-gradient(to bottom,    #275d90,   #d4dade);
+    height: 300px;
     position: relative;
     margin-bottom: 2rem;
 }
