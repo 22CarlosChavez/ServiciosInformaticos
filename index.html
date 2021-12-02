@@ -18,10 +18,10 @@
     </header>
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
-            <a href="#">Inicio</a>
+            <a href="index.html">Inicio</a>
             <a href="../html/sobremi.html">Sobre mi</a>
             <a href="../html/clientes.html">Clientes</a>
-            <a href="#">Portafolio</a>
+            <a href="../html/portafolio.html">Portafolio</a>
         </nav>
     </div>
     <section class="hero">
@@ -35,7 +35,7 @@
                 </svg>
             </p>
             <p>Ciudad Valles, S.L.P.</p>
-            <a href="#" class="boton">Contactar</a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=4811155926&text=Hola,%20Carlos.%20Te%20contacto%20para%20un%20servicio%20informatico" class="boton">Contactar</a>
         </div>
     </section>
     <!-- LO MAS IMPORTANTE DEL SITIO WEB -->
@@ -101,23 +101,23 @@
                     <div class="contenedor-campos">
                         <div class="campo">
                             <label>Nombre Completo</label>
-                            <input class="input-text" type="text" placeholder="Nombre(s)"> 
+                            <input class="input-text" type="text" placeholder="Nombre(s)" disabled> 
                         </div>
                         <div class="campo">
                             <label>Teléfono</label>
-                            <input class="input-text" type="tel" placeholder="Teléfono" maxlength="10">
+                            <input class="input-text" type="tel" placeholder="Teléfono" maxlength="10" disabled>
                         </div>
                         <div class="campo">
                             <label>Correo</label>
-                            <input class="input-text" type="email" placeholder="tucorreo@dominio.com">
+                            <input class="input-text" type="email" placeholder="tucorreo@dominio.com" disabled>
                         </div>
                         <div class="campo">
                             <label>Mensaje</label>
-                            <textarea class="input-text" placeholder="Enviame un mensaje (opcional)"></textarea>
+                            <textarea class="input-text" placeholder="Enviame un mensaje (opcional)" disabled></textarea>
                         </div>
                     </div>
                     <div class="alinear-derecha flex">
-                        <input class="boton w-cien" type="submit" value="Enviar" class="boton">
+                        <input class="boton w-cien" type="submit" value="Enviar" class="boton" disabled>
                     </div>
                 </fieldset>
             </form>
