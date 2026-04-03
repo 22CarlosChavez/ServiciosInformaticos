@@ -158,10 +158,9 @@ h1,h3{
         color: white;
     }
     .servicio-texto{
-        font-size: 25px;
+        font-size: 20px;
     }
-    h2{ 
-        font-size: 25epx;
+    h2{
         margin: 18px
     }
 }
